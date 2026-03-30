@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para o Amor da Minha Vida ❤️</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #0f0f0f, #4b0000);
+    color: white;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #ff4d6d;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #ff85a2;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.foto {
+    width: 90%;
+    max-width: 350px;
+    border-radius: 20px;
+    margin: 15px 0;
+    box-shadow: 0 0 20px rgba(255, 0, 100, 0.6);
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* Corações */
+.heart {
+    position: fixed;
+    top: -10px;
+    color: red;
+    font-size: 20px;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>❤️ Para o Amor da Minha Vida ❤️</h1>
+
+<p>
+Desde que você entrou na minha vida, tudo ficou mais bonito, mais leve e mais cheio de amor.
+</p>
+
+<img class="foto" src="/mnt/data/1000396778.webp">
+
+<p>✨ Você é o melhor presente que Deus me deu ✨</p>
+
+<img class="foto" src="/mnt/data/1000346090.webp">
+
+<p>💖 Eu escolheria você todos os dias 💖</p>
+
+<img class="foto" src="/mnt/data/1000348259.webp">
+
+<p>🌹 Meu amor por você só cresce 🌹</p>
+
+<!-- DECLARAÇÕES -->
+<h2>💌 O que eu sinto por você</h2>
+
+<div class="card">
+<p>Você é o homem da minha vida 💙</p>
+<p>Eu quero construir um futuro ao seu lado 🏡</p>
+<p>Quero me casar com você 💍</p>
+<p>Quero ter filhos com você 👶</p>
+<p>Quero envelhecer ao seu lado 👴👵</p>
+<p>Quero viver todos os sonhos com você ✨</p>
+</div>
+
+<!-- VERSÍCULOS -->
+<h2>📖 Nosso amor também está na Palavra</h2>
+
+<div class="card">
+<p><strong>1 Coríntios 13:4-7</strong><br>
+O amor é paciente, o amor é bondoso. Não inveja, não se vangloria, não se orgulha. Tudo sofre, tudo crê, tudo espera, tudo suporta.</p>
+</div>
+
+<div class="card">
+<p><strong>Eclesiastes 4:9-12</strong><br>
+Melhor é serem dois do que um... porque se um cair, o outro levanta.</p>
+</div>
+
+<div class="card">
+<p><strong>Cânticos 8:7</strong><br>
+Nem muitas águas conseguem apagar o amor.</p>
+</div>
+
+<div class="card">
+<p><strong>Provérbios 18:22</strong><br>
+Quem encontra uma esposa encontra algo excelente.</p>
+</div>
+
+<!-- DECLARAÇÃO FINAL -->
+<h2>💖 Minha Promessa</h2>
+
+<div class="card">
+<p>
+Eu prometo te amar, te cuidar, te respeitar e estar ao seu lado em todos os momentos.  
+Você é minha escolha todos os dias.  
+E sempre será ❤️
+</p>
+</div>
+
+</div>
+
+<!-- Música romântica -->
+<audio autoplay loop>
+<source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Corações animados -->
+<script>
+function criarCoracao() {
+    const heart = document.createElement("div");
+    heart.classList.add("heart");
+    heart.innerHTML = "❤️";
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.animationDuration = (Math.random() * 3 + 2) + "s";
+    document.body.appendChild(heart);
+
+    setTimeout(() => {
+        heart.remove();
+    }, 5000);
+}
+
+setInterval(criarCoracao, 300);
+</script>
+
+</body>
+</html>
